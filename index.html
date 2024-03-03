@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" >
+</head>
+
+<body>
+    <header class="header">
+            <a href="#" class="logo">.CHRISTINA </a>
+                
+        <nav class="navbar">
+                <ul class="menu-list">
+                    <div class="icon cancel-btn">
+                         <i class="fas fa-times"></i> 
+                    </div>
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            <div class="icon menu-btn"> 
+                <i class="fas fa-bars"></i>
+            </div>        
+            <span class="active-nav"></span>
+         </nav>
+    </header>
+    
+    <section class="hero show-animate" id="hero">
+        <div class="contents hero-contents">
+            <h1>Hello, I'm </h1>
+            <div class="hero-text">
+                <div class="name">Cristina</div> 
+            </div>
+            <p class="hero-p">Software Developer in Training </p>
+            <div class="icons-hero">
+                <a href="https://www.linkedin.com/in/cristina-sandoniu/"><i class="fab fa-linkedin-square" ></i> </a> 
+                <a href="https://www.instagram.com/sandoniucristina26/"><i class="fab fa-instagram" ></i></a>
+                <a href="https://github.com/CristinaSandoniu"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/cristina.sandoniu"><i class="fab fa-facebook-square"></i></a>
+             </div>
+        </div>
+        
+    </section>
+    
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span> <span class="animate scroll" style="--i:3;"></span></h2>
+        <div class="about-img">
+            <img src="/images/about-img.png" alt="profile picture">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div> 
+        <div class="about-content">
+            <div class="about-text">
+                <p>I have graduated from the Faculty of Electronics, Telecommunications and Information Technology at the University Politehnica of Bucharest. I
+                    am passionate about technology, especially software development. I am committed to learning and self-development so that I can consistently achieve better results. I enjoy working in a team environment, and I get along well with people. 
+                    I can also say about myself that I love photography, painting and cats. 
+                <span class="animate scroll" style="--i:3;"></span>
+                </p>
+            </div>
+            <div class="btn-box-cv">
+                <a href="CV.pdf" download="" class="btn"><i class="fa fa-download"></i>Download CV</a>
+                <span class="animate scroll" style="--i:4;"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span><span class="animate scroll" style="--i:1;"></span></h2>
+        <div class="container projects-container">
+                <div class="contents projects-contents">
+
+                        <article class="project tincat">
+                            <div class="project-image">
+                                <img src="/images/tincat.png" alt="Project Image TinCat">
+                            </div>
+                            <h3>TinCat</h3>
+                            <p>The project uses Bootstrap for styling and layout. The page includes sections for the title, features, a testimonial, pricing plans, and a footer with contact information and social media links.</p>
+                            <a href="https://cristinasandoniu.github.io/TinCat/" class="demo">Demo</a> 
+                            <div class="project-cta">
+                                <div class="wrapper-cta">
+                                    <a href="https://github.com/CristinaSandoniu/TinCat.git" class="btn">Github</a>
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                </div>
+                            </div>
+                            <span class="animate scroll" style="--i:2;"></span>
+                        </article>
+
+                        <article class="project drumkit">
+                            <div class="project-image">
+                                <img src="/images/drumkit.png" alt="Project Image Drum Kit">
+                            </div>
+                            <h3>Drum Kit</h3>
+                            <p>The project illustrates a drum kit webpage with styled buttons, each linked to a specific sound. JavaScript handles button and keyboard interactions for sound and visual effects.</p>
+                            <a href="https://cristinasandoniu.github.io/DrumKit/" class="demo">Demo</a> 
+                            <div class="project-cta">
+                                <div class="wrapper-cta">
+                                    <a href="https://github.com/CristinaSandoniu/DrumKit.git" class="btn">Github</a>
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                </div>
+                            </div>
+                            <span class="animate scroll" style="--i:3;"></span>
+                        </article>
+
+                        <article class="project dicee">
+                            <div class="project-image">
+                                <img src="/images/dicee.png" alt="Project Image Dicee">
+                            </div>
+                            <h3>Dicee Game</h3>
+                            <p>The HTML code defines a Dicee game webpage with title, styles, and two dice images. JavaScript generates random dice rolls and determines the winner.</p>
+                            <a href="https://cristinasandoniu.github.io/Dicee/" class="demo">Demo</a> 
+                            <div class="project-cta">
+                                <div class="wrapper-cta">
+                                    <a href="https://github.com/CristinaSandoniu/Dicee.git" class="btn">Github</a>
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                </div>
+                            </div>
+                            <span class="animate scroll" style="--i:4;"></span>
+                        </article>
+
+                        <article class="project portofolio">
+                            <div class="project-image">
+                                <img src="/images/todolist.png" alt="Project Image To Do List">
+                            </div>
+                            <h3>To Do List</h3>
+                            <p>A user-friendly web app with an attractive design for creating, managing to-dos, and storing them locally, ensuring an enjoyable experience.</p>
+                            <a href="" class="demo">Demo</a> 
+                            <div class="project-cta">
+                                <div class="wrapper-cta">
+                                    <a href="" class="btn">Github</a>
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                </div>
+                            </div>
+                            <span class="animate scroll" style="--i:5;"></span>
+                        </article>
+                </div>
+            </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span> <span class="animate scroll" style="--i:1;"></span> </h2>
+       <div class="container contact-container">
+            <div class="contents contact-contents">
+                <div class="left-side">
+                    <div class="contact-info">
+                        <div class="adress details">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3 class="topic">Adress</h3>
+                            <div class="text-contact">Bucharest, Romania</div>
+                        </div>
+                        <div class="phone details">
+                            <i class="fas fa-phone-alt"></i>
+                            <h3 class="topic">Phone</h3>
+                            <div class="text-contact">+04 755 479 231</div>
+                        </div>
+                        <div class="email details">
+                            <i class="fas fa-envelope"></i>
+                            <h3 class="topic">Email</h3>
+                            <div class="text-contact">sandoniucristina@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="media details">
+                        <div class="topic">Connect with me:</div>
+                            <a href="https://www.linkedin.com/in/cristina-sandoniu/"><i class="fab fa-linkedin-square" ></i> </a> 
+                            <a href="https://www.instagram.com/sandoniucristina26/"><i class="fab fa-instagram" ></i></a>
+                            <a href="https://github.com/CristinaSandoniu"><i class="fab fa-github"></i></a>
+                            <a href="https://www.facebook.com/cristina.sandoniu"><i class="fab fa-facebook-square"></i></a>
+                    </div>
+                    <span class="animate scroll" style="--i:2;"></span>
+                </div>
+                <div class="right-side">
+                    <div class="formBox">
+                        <h2 class="topic-text">Send me a message</h2>
+                        <form action="#">
+                                <div class="input-box info">
+                                    <input type="text" name="" required>
+                                    <span>First Name</span>
+                                </div>
+                                <div class="input-box info">
+                                    <input type="text" required>
+                                    <span>Last Name</span>
+                                </div>
+                                <div class="input-box info">
+                                    <input type="email" required>
+                                    <span>Email Adress</span>
+                                </div>
+                                <div class="input-box info">
+                                    <input type="text" required>
+                                    <span>Phone Number</span>
+                                </div>
+                                <div class="input-box message-box">
+                                    <textarea required></textarea>
+                                    <span>Write your message here</span>
+                                </div>
+                                <div class="btn-send-message">
+                                    <input type="submit" value="Send">
+                                </div>
+                        </form>
+                    </div>
+                    <span class="animate scroll" style="--i:3;"></span>        
+                </div>
+            </div>
+            <span class="animate scroll" style="--i:1;"></span>
+       </div>   
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Christina</p>
+            <span class="animate scroll" style="--i:1;"></span>  
+        </div>
+        <div class="footer-icon">
+            <a href=""><i class='bx bx-up-arrow-alt'></i></a>
+            <span class="animate scroll" style="--i:3;"></span>  
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!--ion iconons import-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
