@@ -446,6 +446,7 @@ border: .2rem solid var(--orange);
 .left-side .details .text-contact {
     font-size: 1.2rem;
     color: var(--light-gray);
+    text-decoration: none;
 }
 
 .contents .left-side .details i {
